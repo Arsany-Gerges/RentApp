@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RentApp.Domain.Abstraction
 {
-    internal interface IRoomRepository : IBaseRepository
+    public interface IRoomRepository : IBaseRepository
     {
     }
 }
