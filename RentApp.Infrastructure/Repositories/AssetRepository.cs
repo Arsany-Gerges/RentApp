@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RentApp.Infrastructure.Repositories
 {
-    internal class AssetRepository
+    public class AssetRepository
     {
     }
 }

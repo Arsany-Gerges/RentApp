@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RentApp.Infrastructure.Repositories
 {
-    internal class RoomRepsitory : IRoomRepository
+    public class RoomRepsitory : IRoomRepository
     {
     }
 }

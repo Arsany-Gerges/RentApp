@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RentApp.Infrastructure
 {
-    internal class RentAppDbContext : DbContext
+    public class RentAppDbContext : DbContext
     {
     }
 }
