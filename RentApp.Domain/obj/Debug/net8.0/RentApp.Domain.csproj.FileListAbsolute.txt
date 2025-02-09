@@ -1,0 +1,12 @@
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.AssemblyInfoInputs.cache
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.AssemblyInfo.cs
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.csproj.CoreCompileInputs.cache
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.sourcelink.json
+D:\DotNet\RentApp\RentApp\RentApp.Domain\bin\Debug\net8.0\RentApp.Domain.deps.json
+D:\DotNet\RentApp\RentApp\RentApp.Domain\bin\Debug\net8.0\RentApp.Domain.dll
+D:\DotNet\RentApp\RentApp\RentApp.Domain\bin\Debug\net8.0\RentApp.Domain.pdb
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.dll
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\refint\RentApp.Domain.dll
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\RentApp.Domain.pdb
+D:\DotNet\RentApp\RentApp\RentApp.Domain\obj\Debug\net8.0\ref\RentApp.Domain.dll

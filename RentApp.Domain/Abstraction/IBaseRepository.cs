@@ -9,5 +9,7 @@ namespace RentApp.Domain.Abstraction
     public interface IBaseRepository<T> where T : class
     {
         T GetById(int id);
+
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RentApp.Domain.Abstraction;
 
 namespace RentApp.API.Controllers
 {
@@ -7,5 +8,15 @@ namespace RentApp.API.Controllers
     [ApiController]
     public class ApartmentController : ControllerBase
     {
+        private readonly IBaseRepository<ApartmentController> _apartmentRepository;
+        public ApartmentController(IBaseRepository<ApartmentController> apartmentRepository)
+        {
+            _apartmentRepository = apartmentRepository;
+        }
+
+        [HttpGet]
+        public IActionResult GetById(int id) {
+            return Ok(_apartmentRepository.GetById(id));
+        }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oDkugkVFGk868JQpoJ9FjGJ/D1YRdQhdqgg4GmVhAkQ=",
+  "Source": "RentApp.API",
+  "BasePath": "_content/RentApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
