@@ -11,6 +11,7 @@ namespace RentApp.Domain.Abstraction
     {
         T GetById(int id);
         Task<T> GetByIdAsync(int id);
+        T Find(Expression<Func<T, bool>> match);
         IEnumerable<T> GetAll();
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> GetAllSorted<TKey>(Expression<Func<T, TKey>> keySelector, bool ascending = true);

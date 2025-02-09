@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ddf4c43860ba01bf6b1719e124175d65b8fff73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab5b4ec109fc690f55a94adda8ae580239027b60")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

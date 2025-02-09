@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RentApp.Domain.Abstraction;
 using RentApp.Domain.Entities;
+using RentApp.Infrastructure.Repositories;
 
 
 namespace RentApp.API.Controllers
@@ -10,46 +11,52 @@ namespace RentApp.API.Controllers
     [ApiController]
     public class ApartmentController : ControllerBase
     {
-        private readonly IBaseRepository<Apartment> _apartmentRepository;
-        public ApartmentController(IBaseRepository<Apartment> apartmentRepository)
+        private readonly IUnitOfWork _unitOfWork;
+        public ApartmentController(IUnitOfWork unitOfWork)
         {
-            _apartmentRepository = apartmentRepository;
+            _unitOfWork = unitOfWork;
         }
 
         //Get
         [HttpGet("{id}")]
         public IActionResult GetById(int id) {
-            var Apartment = _apartmentRepository.GetById(id);
+            var Apartment = _unitOfWork.Apartments.GetById(id);
             return Ok(Apartment);
         }
         
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
+            IEnumerable<Apartment> apartments;
+            apartments = _unitOfWork.Apartments.GetAll();
+            return Ok(apartments);
+        }
+        [HttpGet("sorted")]
+        public IActionResult GetSorted([FromQuery] string sortBy = "Name", [FromQuery] bool ascending = true)
+        {
             IEnumerable<Apartment> Apartments;
-            Apartments = _apartmentRepository.GetAll();
+            switch (sortBy.ToLower())
+            {
+                case "size":
+                    Apartments = _unitOfWork.Apartments.GetAllSorted(a => a.Size, ascending);
+                    break;
+                case "numberofrooms":
+                    Apartments = _unitOfWork.Apartments.GetAllSorted(a => a.NumberOfRooms, ascending);
+                    break;
+                case "city":
+                    Apartments = _unitOfWork.Apartments.GetAllSorted(a => a.City, ascending);
+                    break;
+                default:
+                    Apartments = _unitOfWork.Apartments.GetAllSorted(a => a.Id, ascending);
+                    break;
+
+            }
             return Ok(Apartments);
         }
-        //[HttpGet("sorted")]
-        //public IActionResult GetSorted([FromQuery] string sortBy = "Name", [FromQuery] bool ascending = true)
-        //{
-        //    IEnumerable<Apartment> Apartments;
-        //    switch (sortBy.ToLower())
-        //    {
-        //        case "price":
-        //            Apartments = _apartmentRepository.GetAllSorted(p => p.Price, ascending));
-        //            break;
-        //        default:
-        //            Apartments = _apartmentRepository.GetAllSorted(p => p.Id, ascending));
-        //            break;
-
-        //    }
-        //    return Ok(Apartments);
-        //}
         //[HttpGet("GetByIdAsync")]
         //public async Task<IActionResult> GetByIdAsync(int id)
         //{
-        //    return Ok(await _apartmentRepository.GetByIdAsync(id));
+        //    return Ok(await _unitOfWork.Apartments.GetByIdAsync(id));
         //}
 
         //Post
@@ -57,9 +64,9 @@ namespace RentApp.API.Controllers
         public IActionResult AddApartment([FromBody] Apartment Apartment) {
             if (Apartment == null)
             {
-                return BadRequest("Product data is required.");
+                return BadRequest("Apartment's data is required.");
             }
-            _apartmentRepository.Add(Apartment);
+            _unitOfWork.Apartments.Add(Apartment);
             return Created();
         }
     }
