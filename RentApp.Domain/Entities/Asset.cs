@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RentApp.Domain.Entities
 {
-    internal class Asset
+    public class Asset
     {
     }
 }
