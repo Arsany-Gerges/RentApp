@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {}
+    "E:\\discord\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
+    "E:\\discord\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
+        "projectUniqueName": "E:\\discord\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
         "projectName": "RentApp.Domain",
-        "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Arsany Gerges\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\obj\\",
+        "projectPath": "E:\\discord\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\NOUR  SOFT\\.nuget\\packages\\",
+        "outputPath": "E:\\discord\\RentApp\\RentApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arsany Gerges\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NOUR  SOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

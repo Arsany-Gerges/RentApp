@@ -1,12 +1,160 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DotNet\\RentApp\\RentApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\discord\\RentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3E0A9F-9F0A-4045-8496-34F5015961BF}|RentApp.Infrastructure\\RentApp.Infrastructure.csproj|e:\\discord\\rentapp\\rentapp.infrastructure\\context\\rentappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3E0A9F-9F0A-4045-8496-34F5015961BF}|RentApp.Infrastructure\\RentApp.Infrastructure.csproj|solutionrelative:rentapp.infrastructure\\context\\rentappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F50B2-5BBD-4F61-B8E9-C7F6ACE4C18F}|RentApp\\RentApp.API.csproj|e:\\discord\\rentapp\\rentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B0F50B2-5BBD-4F61-B8E9-C7F6ACE4C18F}|RentApp\\RentApp.API.csproj|solutionrelative:rentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F50B2-5BBD-4F61-B8E9-C7F6ACE4C18F}|RentApp\\RentApp.API.csproj|e:\\discord\\rentapp\\rentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F50B2-5BBD-4F61-B8E9-C7F6ACE4C18F}|RentApp\\RentApp.API.csproj|solutionrelative:rentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|e:\\discord\\rentapp\\rentapp.domain\\entities\\apartment_images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|solutionrelative:rentapp.domain\\entities\\apartment_images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|e:\\discord\\rentapp\\rentapp.domain\\entities\\room_images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|solutionrelative:rentapp.domain\\entities\\room_images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|e:\\discord\\rentapp\\rentapp.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|solutionrelative:rentapp.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|e:\\discord\\rentapp\\rentapp.domain\\entities\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|solutionrelative:rentapp.domain\\entities\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|e:\\discord\\rentapp\\rentapp.domain\\entities\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8A5CA3-B7FB-403F-8E1F-8EA7B1CCD150}|RentApp.Domain\\RentApp.Domain.csproj|solutionrelative:rentapp.domain\\entities\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentAppDbContext.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Infrastructure\\Context\\RentAppDbContext.cs",
+              "RelativeDocumentMoniker": "RentApp.Infrastructure\\Context\\RentAppDbContext.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Infrastructure\\Context\\RentAppDbContext.cs",
+              "RelativeToolTip": "RentApp.Infrastructure\\Context\\RentAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:14:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Apartment_Images.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Apartment_Images.cs",
+              "RelativeDocumentMoniker": "RentApp.Domain\\Entities\\Apartment_Images.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Apartment_Images.cs",
+              "RelativeToolTip": "RentApp.Domain\\Entities\\Apartment_Images.cs",
+              "ViewState": "AgIAAAsAAABAAAAAAAAQwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:08:31.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Room_Images.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Room_Images.cs",
+              "RelativeDocumentMoniker": "RentApp.Domain\\Entities\\Room_Images.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Room_Images.cs",
+              "RelativeToolTip": "RentApp.Domain\\Entities\\Room_Images.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:08:50.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Room.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Room.cs",
+              "RelativeDocumentMoniker": "RentApp.Domain\\Entities\\Room.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Room.cs",
+              "RelativeToolTip": "RentApp.Domain\\Entities\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:07:52.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Asset.cs",
+              "RelativeDocumentMoniker": "RentApp.Domain\\Entities\\Asset.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Asset.cs",
+              "RelativeToolTip": "RentApp.Domain\\Entities\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:07:42.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp\\Program.cs",
+              "RelativeDocumentMoniker": "RentApp\\Program.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp\\Program.cs",
+              "RelativeToolTip": "RentApp\\Program.cs",
+              "ViewState": "AgIAAAwAAABgZmZmZmYkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:30:23.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp\\appsettings.json",
+              "RelativeDocumentMoniker": "RentApp\\appsettings.json",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp\\appsettings.json",
+              "RelativeToolTip": "RentApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T02:32:07.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Apartment.cs",
+              "DocumentMoniker": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Apartment.cs",
+              "RelativeDocumentMoniker": "RentApp.Domain\\Entities\\Apartment.cs",
+              "ToolTip": "E:\\discord\\RentApp\\RentApp.Domain\\Entities\\Apartment.cs",
+              "RelativeToolTip": "RentApp.Domain\\Entities\\Apartment.cs",
+              "ViewState": "AgIAAA8AAADAmZmZmZk4wAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T02:07:12.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

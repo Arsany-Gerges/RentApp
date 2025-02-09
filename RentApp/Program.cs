@@ -1,4 +1,5 @@
-
+using Microsoft.EntityFrameworkCore;
+using RentApp.Infrastructure;
 using RentApp.Domain.Abstraction;
 using RentApp.Infrastructure.Repositories;
 
@@ -10,17 +11,20 @@ namespace RentProject.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            
+            builder.Services.AddDbContext<RentAppDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+           
             builder.Services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+           
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -28,10 +32,7 @@ namespace RentProject.Api
             }
 
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }
