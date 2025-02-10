@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj": {}
+    "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\RentApp.Application.csproj": {
+    "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\RentApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\RentApp.Application.csproj",
+        "projectUniqueName": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\RentApp.Application.csproj",
         "projectName": "RentApp.Application",
-        "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\RentApp.Application.csproj",
-        "packagesPath": "C:\\Users\\Arsany Gerges\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\obj\\",
+        "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\RentApp.Application.csproj",
+        "packagesPath": "C:\\Users\\Lail\\.nuget\\packages\\",
+        "outputPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Arsany Gerges\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lail\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
-                "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj"
+              "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
+                "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj"
               }
             }
           }
@@ -42,13 +38,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -69,25 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
+    "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
+        "projectUniqueName": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
         "projectName": "RentApp.Domain",
-        "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Arsany Gerges\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\obj\\",
+        "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lail\\.nuget\\packages\\",
+        "outputPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Arsany Gerges\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lail\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,13 +93,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -134,25 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet\\RentApp\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj": {
+    "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj",
+        "projectUniqueName": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj",
         "projectName": "RentApp.Infrastructure",
-        "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Arsany Gerges\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Infrastructure\\obj\\",
+        "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Infrastructure\\RentApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lail\\.nuget\\packages\\",
+        "outputPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Arsany Gerges\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lail\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,11 +142,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\RentApp.Application.csproj": {
-                "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Application\\RentApp.Application.csproj"
+              "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\RentApp.Application.csproj": {
+                "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Application\\RentApp.Application.csproj"
               },
-              "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
-                "projectPath": "D:\\DotNet\\RentApp\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj"
+              "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj": {
+                "projectPath": "F:\\DEV_Community\\Projects\\Temp\\RentAppMe\\RentApp\\RentApp.Domain\\RentApp.Domain.csproj"
               }
             }
           }
@@ -179,29 +155,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.12, )"
+              "version": "[9.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -226,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
